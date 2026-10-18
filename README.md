@@ -43,6 +43,9 @@ python tools/build_context.py
 python tools/new_session.py --agent "Claude" --task "Definir árvores"
 ```
 
+## Repositório do Segundo Cérebro
+https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 (privado; requer acesso autorizado).
+
 ## Publicação e Obsidian
 Consulte [`GUIA-INSTALACAO.md`](GUIA-INSTALACAO.md).
 Mantenha o repositório **privado**, especialmente se futuramente houver código ou informações
