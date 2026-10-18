@@ -8,6 +8,7 @@ aliases: [Home, Segundo Cérebro]
 > **PLANEJAMENTO — nenhum código do jogo foi verificado ou entregue neste repositório.**
 
 ## Acesso rápido
+- [[GUIA-PARA-IAS|Instruções para qualquer IA]]
 - [[00-Painel/Estado-Atual|Estado atual e próximo passo]]
 - [[01-Produto/Visao-Geral|Visão do jogo]]
 - [[01-Produto/Ciclo-Principal|Ciclo do jogador]]
