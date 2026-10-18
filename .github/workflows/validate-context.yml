@@ -1,0 +1,16 @@
+name: Validar Segundo Cerebro
+on:
+  push:
+  pull_request:
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validar documentos e links
+        run: python tools/validate_context.py
+      - name: Verificar contexto portátil
+        run: python tools/build_context.py --check

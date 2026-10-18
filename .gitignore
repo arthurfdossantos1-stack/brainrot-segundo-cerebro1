@@ -1,0 +1,25 @@
+# Obsidian - dados de interface e plugins locais
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.obsidian/hotkeys.json
+.obsidian/appearance.json
+
+# Credenciais, dados locais e temporários
+.env
+.env.*
+!.env.example
+**/credentials.json
+**/secrets.json
+**/*.pem
+**/*.key
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+*.swp
