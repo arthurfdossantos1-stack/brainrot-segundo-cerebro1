@@ -10,7 +10,7 @@ Claude, Gemini e outros assistentes.
 ## Comece aqui
 1. Abra [`INICIO.md`](INICIO.md) no Obsidian.
 2. Consulte [`00-Painel/Estado-Atual.md`](00-Painel/Estado-Atual.md).
-3. Leia [`AGENTS.md`](AGENTS.md) antes de pedir trabalho a uma IA.
+3. Leia [`GUIA-PARA-IAS.md`](GUIA-PARA-IAS.md) e depois [`AGENTS.md`](AGENTS.md) antes de pedir trabalho a uma IA.
 4. Ao trocar de IA, compartilhe [`07-Handoffs/PROMPT-NOVA-IA.md`](07-Handoffs/PROMPT-NOVA-IA.md)
    e [`CONTEXTO-PORTATIL.md`](CONTEXTO-PORTATIL.md), ou dê acesso ao repositório.
 5. Após cada tarefa, atualize backlog, documentação, registro de sessão e handoff.
