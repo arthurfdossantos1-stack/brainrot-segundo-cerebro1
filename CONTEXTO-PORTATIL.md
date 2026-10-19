@@ -188,10 +188,15 @@ Não instalar arquivos nesse Place1 por suposição.
 ## Branch e versão
 - Base: `main`, `02da386f4d787902276e4e3f22f6e148b6a15bec`.
 - Trabalho: `codex/recuperar-contexto-2026-10-19`.
+- Recuperação publicada e ref remota confirmada:
+  `2b812609b2424ecdc00c9b2e077f6fbeb5a53785`; CI de push passou.
+- [PR #1](https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1/pull/1)
+  aberta, não integrada. **Enquanto a PR estiver aberta, ler a branch de trabalho;
+  main ainda contém o handoff antigo.**
 - Commit da recuperação: consultar
   `git log -1 --format=%H -- 06-Sessoes/2026-10-19-recuperacao-contexto-e-ui.md`.
-- Commit do jogo: **desconhecido**. Conferir confirmação remota da memória no
-  registro de sincronização; não confundir snapshots com código implantado.
+- Commit do jogo: **desconhecido**. Detalhes do envio pelo conector, equivalência
+  com o commit local e CI estão na nota de sessão; não houve push CLI concluído.
 
 Fonte conceitual preservada: [[00-Fonte/PROJETO_BRAINROT]] e
 [[05-Decisoes/DEC-0001-Conceito-Base]]. Nenhuma decisão foi substituída.

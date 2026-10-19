@@ -66,6 +66,19 @@ tags: [sessao, continuidade, ui, evidencia]
 - Commit do jogo: desconhecido. Confirmação de envio registrada após publicação;
   não confundir snapshots históricos com código implantado.
 
+## Sincronização verificada
+- Recuperação publicada no GitHub: `2b812609b2424ecdc00c9b2e077f6fbeb5a53785`,
+  branch `codex/recuperar-contexto-2026-10-19`; ref remota conferida pela API.
+- [PR #1](https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1/pull/1)
+  aberta para `main`, ainda não integrada. Para continuar antes da integração,
+  ler esta branch, pois `main` mantém o handoff anterior.
+- Publicação pelo conector GitHub: `git push` local não concluiu e foi interrompido,
+  sem alteração remota daquela tentativa. Não afirmar que o comando push passou.
+- Commit local inicial `28ac8a9a2bce0ccde128c56f41d27a717805e938` e commit remoto
+  de recuperação têm a mesma árvore `e6ed6f3b29569b55bcba3834ed3bd447fbc03867`.
+- CI remoto de push da recuperação: execução `39294117431`, resultado `success`.
+  Este registro é uma atualização posterior da documentação de encerramento.
+
 ## Próxima ação exata
 Confirmar vínculo do Place `116391348137209` e abri-lo com MCP. Identificar/exportar
 o código real, comparar fontes ao vivo com o manifesto e retomar ícones/UI.
