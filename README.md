@@ -4,8 +4,11 @@ Repositório de **memória de projeto + vault Obsidian** para o jogo Roblox de �
 Serve para manter decisões, especificações, pendências e o ponto de continuação entre ChatGPT,
 Claude, Gemini e outros assistentes.
 
-> **Situação real (18/10/2026): planejamento.** Este repositório começa somente com documentação;
-> não contém nem afirma conter scripts, cenas ou um jogo Roblox implementado.
+> **Situação verificada (19/10/2026): recuperação parcial.** Há fontes históricas de UI
+> preservadas como evidência, sem projeto executável completo ou implantação.
+> Studio conectado em Place1 vazio; alvo histórico ainda precisa ser confirmado.
+
+Leia [a recuperação de UI](03-Tecnico/Recuperacao-UI-2026-10-19.md).
 
 ## Comece aqui
 1. Abra [`INICIO.md`](INICIO.md) no Obsidian.
@@ -26,7 +29,7 @@ Claude, Gemini e outros assistentes.
 - `00-Fonte`: documento de referência original, preservado.
 - `01-Produto`: conceito, loop, perguntas e proposta de MVP.
 - `02-Sistemas`: fichas de cada sistema planejado.
-- `03-Tecnico`: diretrizes propostas, inventário do código (inicialmente vazio).
+- `03-Tecnico`: diretrizes propostas, mapa do código e evidências históricas parciais.
 - `04-Planejamento`: backlog e fases.
 - `05-Decisoes`: decisões registradas (ADRs).
 - `06-Sessoes`: registro factual por sessão.
@@ -44,7 +47,7 @@ python tools/new_session.py --agent "Claude" --task "Definir árvores"
 ```
 
 ## Repositório do Segundo Cérebro
-https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 (privado; requer acesso autorizado).
+https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 (API em 19/10/2026: público; descrição anterior dizia privado; visibilidade não alterada).
 
 ## Publicação e Obsidian
 Consulte [`GUIA-INSTALACAO.md`](GUIA-INSTALACAO.md).

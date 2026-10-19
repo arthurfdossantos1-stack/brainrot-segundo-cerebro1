@@ -1,12 +1,14 @@
 ---
-status: especificacao-em-aberto
-implementado: false
+status: evidencia-parcial-alvo-pendente
+implementado: nao-verificado-no-projeto-alvo
 tags: [sistema, planejamento]
 ---
 # Sistema: Interface Mobile
 
 ## O que se sabe
-Interface, estética e animações estão em aberto.
+O vault não possui especificação aprovada de interface. Foi recuperada uma sessão
+anterior de UI do lugar `116391348137209`; o vínculo com este projeto está pendente
+de confirmação. Ver [[03-Tecnico/Recuperacao-UI-2026-10-19]].
 
 ## Decisões em aberto
 Layout, HUD, controles touch, adaptação, acessibilidade.
@@ -18,7 +20,10 @@ Testar legibilidade e uso real em celulares.
 Consultar [[01-Produto/Ciclo-Principal]], [[01-Produto/Perguntas-Abertas]] e [[04-Planejamento/Backlog]].
 
 ## Evidências de implementação
-**Nenhuma verificada.** Preencher com caminhos, commits, capturas e testes somente quando existirem.
+Cinco fontes locais e cinco versões históricas preservadas com hashes. Tema,
+loja e HUD locais diferem do último texto recuperado do histórico. As dez fontes
+compilaram sem execução; aparência e interação mobile não foram verificadas.
+O Studio atual é um Place1 vazio, portanto não representa o jogo histórico.
 
 ## Critérios de aceitação
 Pendentes da definição deste sistema.

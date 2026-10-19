@@ -5,7 +5,8 @@ aliases: [Home, Segundo Cérebro]
 # 🌳 Central do projeto — Árvores e Brainrots
 
 > [!important] Situação
-> **PLANEJAMENTO — nenhum código do jogo foi verificado ou entregue neste repositório.**
+> **RECUPERAÇÃO PARCIAL — fontes históricas de UI preservadas; projeto ao vivo e
+> repositório de código ainda precisam ser conectados. MVP não aprovado.**
 
 ## Acesso rápido
 - [[GUIA-PARA-IAS|Instruções para qualquer IA]]
@@ -18,6 +19,8 @@ aliases: [Home, Segundo Cérebro]
 - [[07-Handoffs/HANDOFF-ATUAL|Handoff atual]]
 - [[07-Handoffs/PROMPT-NOVA-IA|Enviar a uma nova IA]]
 - [[06-Sessoes/2026-10-18-inicializacao|Histórico inicial]]
+- [[06-Sessoes/2026-10-19-recuperacao-contexto-e-ui|Recuperação mais recente]]
+- [[03-Tecnico/Recuperacao-UI-2026-10-19|Fontes recuperadas e bloqueio atual]]
 
 ## Como usar
 1. Leia o contexto antes de começar.

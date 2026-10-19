@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-19",
+  "status": "evidencia-historica-nao-instalavel-sem-conferencia",
+  "historical_place_id": 116391348137209,
+  "current_place_id_at_inspection": 0,
+  "historical_thread_title": "Conectar MCP do Roblox ao GPT",
+  "historical_thread_id": "01a14f2f-5f85-77b2-8770-90981c6a7578",
+  "warning": "Os argumentos das ferramentas preservam codigo enviado anteriormente. Status completed nao comprova publicacao, salvamento ou estado atual do jogo. Nenhuma fonte foi instalada nesta sessao.",
+  "files": [
+    {
+      "file": "local/BrickTheme.luau",
+      "bytes": 12573,
+      "sha256": "15cc7d8328a871fb404b5e075de1853f074208f6cd64174ff9c489b7f1b46f26",
+      "origin": "Documents/Codex/2026-10-18/c/work/BrickTheme.luau",
+      "historical_studio_path": "game.ReplicatedStorage.BrickTheme"
+    },
+    {
+      "file": "historico/BrickTheme.luau",
+      "bytes": 13723,
+      "sha256": "0deeb878a7ef5694e3b3788e3784ce5a52a42f00997ebbc5c99c24030fdf6a94",
+      "origin": "argumento execute_luau da sessao anterior",
+      "historical_studio_path": "game.ReplicatedStorage.BrickTheme",
+      "tool_call": "exec-b718e62d-e4d6-42af-a931-9576e35d9392",
+      "turn": "01a14f3b-a037-7f90-ad30-928e304fec26",
+      "tool_status": "completed"
+    },
+    {
+      "file": "local/ShopClient.luau",
+      "bytes": 5139,
+      "sha256": "f26f8587161e0c6189b88158a9ba128aabd2a944fabe62ab7a7d0e2150a3fba9",
+      "origin": "Documents/Codex/2026-10-18/c/work/ShopClient.luau",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.LocalScript"
+    },
+    {
+      "file": "historico/ShopClient.luau",
+      "bytes": 6155,
+      "sha256": "3c6cf63b1dc05cc909f572f6a93bbe8985a2fbdbca3d1116282ea2613b3a3e91",
+      "origin": "argumento execute_luau da sessao anterior",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.LocalScript",
+      "tool_call": "exec-5cc784dc-38a2-4ab0-9380-3384ffc5c90f",
+      "turn": "01a14f3b-a037-7f90-ad30-928e304fec26",
+      "tool_status": "completed"
+    },
+    {
+      "file": "local/SellClient.luau",
+      "bytes": 4292,
+      "sha256": "b08b39cc43f3316f48dbf1d88a623eed7284f827420502d6e74563261f3200f8",
+      "origin": "Documents/Codex/2026-10-18/c/work/SellClient.luau",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.SellClient"
+    },
+    {
+      "file": "historico/SellClient.luau",
+      "bytes": 4291,
+      "sha256": "9bf296152283163b1cdffc9d31704eb2feef9d578be1ea16d0ac2e0dc552e00d",
+      "origin": "argumento execute_luau da sessao anterior",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.SellClient",
+      "tool_call": "exec-9cebe1a8-e993-4ef9-8ebe-9d7adfc46eea",
+      "turn": "01a14f31-85ab-76e2-86a2-263670096c7f",
+      "tool_status": "completed"
+    },
+    {
+      "file": "local/HudClient.luau",
+      "bytes": 1867,
+      "sha256": "b7fc4db6d5d82292f76ee98f00caa2e0513f59f48f698bb15a1168d5c7c2ba16",
+      "origin": "Documents/Codex/2026-10-18/c/work/HudClient.luau",
+      "historical_studio_path": "game.StarterGui.InventarioGui.MadeiraUpdater"
+    },
+    {
+      "file": "historico/HudClient.luau",
+      "bytes": 1922,
+      "sha256": "554061a47a6f630adbb3389016bc9b33076b933035fd9fda20259e0b1f153e94",
+      "origin": "argumento execute_luau da sessao anterior",
+      "historical_studio_path": "game.StarterGui.InventarioGui.MadeiraUpdater",
+      "tool_call": "exec-42f81988-d8ff-4be1-81bb-eaec4f446463",
+      "turn": "01a14f31-85ab-76e2-86a2-263670096c7f",
+      "tool_status": "completed"
+    },
+    {
+      "file": "local/PromptClient.luau",
+      "bytes": 2862,
+      "sha256": "ee1c7cb59eba0ad9f9fc38801e648b45f4b3e93e4aa80f68fd3f9ed7f2b187c1",
+      "origin": "Documents/Codex/2026-10-18/c/work/PromptClient.luau",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.BrickPromptClient"
+    },
+    {
+      "file": "historico/PromptClient.luau",
+      "bytes": 2861,
+      "sha256": "ab175a828e01602fc67f55768dd12aeb30d3ebba0aec1a0d583e1e4d060654bc",
+      "origin": "argumento execute_luau da sessao anterior",
+      "historical_studio_path": "game.StarterPlayer.StarterPlayerScripts.BrickPromptClient",
+      "tool_call": "exec-42f81988-d8ff-4be1-81bb-eaec4f446463",
+      "turn": "01a14f31-85ab-76e2-86a2-263670096c7f",
+      "tool_status": "completed"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "BrickTheme.luau",
+      "same_ignoring_line_endings_and_final_whitespace": false
+    },
+    {
+      "file": "ShopClient.luau",
+      "same_ignoring_line_endings_and_final_whitespace": false
+    },
+    {
+      "file": "SellClient.luau",
+      "same_ignoring_line_endings_and_final_whitespace": true
+    },
+    {
+      "file": "HudClient.luau",
+      "same_ignoring_line_endings_and_final_whitespace": false
+    },
+    {
+      "file": "PromptClient.luau",
+      "same_ignoring_line_endings_and_final_whitespace": true
+    }
+  ],
+  "compile_check": {
+    "method": "Roblox MCP execute_luau em Edit, loadstring sem executar o resultado",
+    "files": 10,
+    "passed": 10,
+    "runtime_test": false
+  }
+}

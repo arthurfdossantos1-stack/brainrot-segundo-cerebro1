@@ -1,0 +1,2 @@
+# Preserve exact snapshot bytes so SHA-256 stays valid across platforms.
+**/*.luau -text

@@ -1,43 +1,49 @@
-
 ---
-status: planejamento
-atualizado_em: 2026-10-18
+status: recuperacao-parcial-alvo-pendente
+atualizado_em: 2026-10-19
 responsavel: criador-do-projeto
 tags: [status, handoff]
 ---
 # Estado atual
 
 ## Resumo executivo
-Jogo Roblox de cortar árvores e fabricar ovos a partir de madeira.
-Ovos revelam Brainrots, que ficam na base e geram dinheiro para progressão.
+Conceito: árvore → madeira → fábrica → ovo → Brainrot → dinheiro → evolução.
+O MVP ainda não está aprovado. Foi recuperada uma sessão anterior de UI do jogo
+**cortador para brainrot**, ausente deste GitHub. Seu vínculo com este projeto
+precisa ser confirmado; não recomeçar o jogo nem tratar fontes parciais como
+implementação completa.
 
-## Confirmado pelo documento original
-- Plataforma Roblox.
-- Machado básico e base no início do ciclo idealizado.
-- Cortar árvores rende madeira.
-- Madeira alimenta a fabricação de ovos.
-- Ovos liberam Brainrots aleatórios.
-- Brainrots geram dinheiro com o tempo.
-- Dinheiro permite melhorias e acesso a árvores melhores.
+## Verificado em 19/10/2026
+- Base remota: `main`, `02da386f4d787902276e4e3f22f6e148b6a15bec`; último commit de
+  sincronização, sem código Roblox versionado até aquela revisão.
+- Cinco fontes locais e cinco históricas preservadas com hashes e origem.
+  Tema, loja e HUD diferem entre as versões. Nenhuma fonte implantada nesta sessão.
+- Compilação sintática: 10/10 fontes válidas, nenhuma executada.
+- Roblox MCP atual: Place1, ID 0, Edit, nenhum script.
+- Jogo histórico: cortador para brainrot, Place ID `116391348137209`.
+- Blender MCP: conectado, cena inicial não salva com Cube, Camera e Light.
+- Falhas preexistentes de link wiki e contexto portátil tratadas nesta sessão.
 
-## NÃO verificado / NÃO implementado
-- Nenhum repositório do código do jogo foi identificado aqui.
-- Nenhum script, interface, mapa, teste ou sistema Roblox foi executado.
-- Nome, valores, probabilidades e comportamento de roubo estão indefinidos.
-- As fichas de sistemas são documentação e hipóteses, não requisitos finais.
+## Ainda não confirmado
+- Repositório, branch e commit do jogo real; salvamento/publicação das mudanças antigas.
+- Conclusão dos ícones, UI mobile e testes funcionais.
+- Sistema completo de árvores, fábrica, ovos, renda e persistência neste projeto.
+- Nome definitivo, valores, probabilidades e roubo sem decisão formal.
 
-## Próximo passo recomendado
-**Prioridade P0:** definir o MVP mínimo e esclarecer a forma de implementar/testar no
-Roblox Studio, a partir de [[01-Produto/Perguntas-Abertas]]; depois criar o repositório
-de código do jogo e registrar o URL em [[03-Tecnico/Mapa-do-Codigo]].
+## Próximo passo
+**BR-002 / BR-013:** confirmar se este vault acompanha o Place `116391348137209`
+e abrir esse projeto com MCP. Identificar código real e comparar fontes antes de
+editar. Para projeto novo, resolver BR-001/BR-002; continuidade não aprova o MVP.
 
-## Estado de integração
+## Integração
 | Recurso | Estado |
 |---|---|
-| Vault Obsidian | Estrutura inicial pronta para importar |
-| Repositório GitHub remoto | Publicado: https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 |
-| Repositório de código Roblox | Não informado |
-| Integração automática entre IAs | Não configurada |
-| Código jogável | Não verificado |
+| Segundo Cérebro | GitHub acessível; API indica público; visibilidade não alterada |
+| Código Roblox | Evidências históricas parciais, sem repositório operacional |
+| Roblox MCP | Funcionando, porém em Place1 vazio |
+| Blender MCP | Funcionando, sem asset identificado do projeto |
+| Memória entre IAs | Documentação versionada; sem sincronização automática do Studio |
+| Código jogável | Não testado nesta sessão |
 
-Atualizar estas linhas apenas mediante evidência: URL real, commit, arquivo ou teste.
+Detalhes: [[03-Tecnico/Recuperacao-UI-2026-10-19]],
+[[06-Sessoes/2026-10-19-recuperacao-contexto-e-ui]] e [[07-Handoffs/HANDOFF-ATUAL]].

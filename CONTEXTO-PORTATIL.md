@@ -24,6 +24,7 @@
 ## Arquivo de origem: `AGENTS.md`
 
 
+
 # AGENTS.md — contrato de continuidade para agentes de IA
 
 ## Missão
@@ -80,47 +81,54 @@ Instruções completas: `07-Handoffs/PROTOCOLO-DE-CONTINUIDADE.md`.
 
 
 ---
-status: planejamento
-atualizado_em: 2026-10-18
+status: recuperacao-parcial-alvo-pendente
+atualizado_em: 2026-10-19
 responsavel: criador-do-projeto
 tags: [status, handoff]
 ---
 # Estado atual
 
 ## Resumo executivo
-Jogo Roblox de cortar árvores e fabricar ovos a partir de madeira.
-Ovos revelam Brainrots, que ficam na base e geram dinheiro para progressão.
+Conceito: árvore → madeira → fábrica → ovo → Brainrot → dinheiro → evolução.
+O MVP ainda não está aprovado. Foi recuperada uma sessão anterior de UI do jogo
+**cortador para brainrot**, ausente deste GitHub. Seu vínculo com este projeto
+precisa ser confirmado; não recomeçar o jogo nem tratar fontes parciais como
+implementação completa.
 
-## Confirmado pelo documento original
-- Plataforma Roblox.
-- Machado básico e base no início do ciclo idealizado.
-- Cortar árvores rende madeira.
-- Madeira alimenta a fabricação de ovos.
-- Ovos liberam Brainrots aleatórios.
-- Brainrots geram dinheiro com o tempo.
-- Dinheiro permite melhorias e acesso a árvores melhores.
+## Verificado em 19/10/2026
+- Base remota: `main`, `02da386f4d787902276e4e3f22f6e148b6a15bec`; último commit de
+  sincronização, sem código Roblox versionado até aquela revisão.
+- Cinco fontes locais e cinco históricas preservadas com hashes e origem.
+  Tema, loja e HUD diferem entre as versões. Nenhuma fonte implantada nesta sessão.
+- Compilação sintática: 10/10 fontes válidas, nenhuma executada.
+- Roblox MCP atual: Place1, ID 0, Edit, nenhum script.
+- Jogo histórico: cortador para brainrot, Place ID `116391348137209`.
+- Blender MCP: conectado, cena inicial não salva com Cube, Camera e Light.
+- Falhas preexistentes de link wiki e contexto portátil tratadas nesta sessão.
 
-## NÃO verificado / NÃO implementado
-- Nenhum repositório do código do jogo foi identificado aqui.
-- Nenhum script, interface, mapa, teste ou sistema Roblox foi executado.
-- Nome, valores, probabilidades e comportamento de roubo estão indefinidos.
-- As fichas de sistemas são documentação e hipóteses, não requisitos finais.
+## Ainda não confirmado
+- Repositório, branch e commit do jogo real; salvamento/publicação das mudanças antigas.
+- Conclusão dos ícones, UI mobile e testes funcionais.
+- Sistema completo de árvores, fábrica, ovos, renda e persistência neste projeto.
+- Nome definitivo, valores, probabilidades e roubo sem decisão formal.
 
-## Próximo passo recomendado
-**Prioridade P0:** definir o MVP mínimo e esclarecer a forma de implementar/testar no
-Roblox Studio, a partir de [[01-Produto/Perguntas-Abertas]]; depois criar o repositório
-de código do jogo e registrar o URL em [[03-Tecnico/Mapa-do-Codigo]].
+## Próximo passo
+**BR-002 / BR-013:** confirmar se este vault acompanha o Place `116391348137209`
+e abrir esse projeto com MCP. Identificar código real e comparar fontes antes de
+editar. Para projeto novo, resolver BR-001/BR-002; continuidade não aprova o MVP.
 
-## Estado de integração
+## Integração
 | Recurso | Estado |
 |---|---|
-| Vault Obsidian | Estrutura inicial pronta para importar |
-| Repositório GitHub remoto | Publicado: https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 |
-| Repositório de código Roblox | Não informado |
-| Integração automática entre IAs | Não configurada |
-| Código jogável | Não verificado |
+| Segundo Cérebro | GitHub acessível; API indica público; visibilidade não alterada |
+| Código Roblox | Evidências históricas parciais, sem repositório operacional |
+| Roblox MCP | Funcionando, porém em Place1 vazio |
+| Blender MCP | Funcionando, sem asset identificado do projeto |
+| Memória entre IAs | Documentação versionada; sem sincronização automática do Studio |
+| Código jogável | Não testado nesta sessão |
 
-Atualizar estas linhas apenas mediante evidência: URL real, commit, arquivo ou teste.
+Detalhes: [[03-Tecnico/Recuperacao-UI-2026-10-19]],
+[[06-Sessoes/2026-10-19-recuperacao-contexto-e-ui]] e [[07-Handoffs/HANDOFF-ATUAL]].
 
 
 ---
@@ -129,50 +137,75 @@ Atualizar estas linhas apenas mediante evidência: URL real, commit, arquivo ou 
 
 
 ---
-status: pronto-para-transferir-contexto
-ultima_sessao: 2026-10-18
+status: recuperacao-parcial-alvo-pendente
+ultima_sessao: 2026-10-19
 tags: [handoff, continuidade]
 ---
 # HANDOFF ATUAL — ler antes de qualquer tarefa
 
-## Fonte prioritária
-[[00-Fonte/PROJETO_BRAINROT]] e [[05-Decisoes/DEC-0001-Conceito-Base]].
+## Onde parou
+Recuperada sessão de UI de **cortador para brainrot**, Place ID `116391348137209`,
+ausente do Segundo Cérebro. Última tarefa histórica: UI quadrada, studs originais
+mais densos e ícones conforme referências. A etapa de ícones terminou sem conclusão
+por limite de uso. Salvamento/publicação e vínculo com este vault não confirmados.
 
-## Onde o projeto está
-**Planejamento.** Foi montado o Segundo Cérebro; não existe evidência neste
-material de que o código Roblox esteja implementado.
+Studio em 19/10/2026: **Place1, ID 0, sem scripts**. Blender na cena inicial.
+Não instalar arquivos nesse Place1 por suposição.
 
-## Confirmado
-Jogo Roblox: árvore → madeira → fábrica → ovo → Brainrot → dinheiro → evolução.
+## Feito nesta sessão
+- Conferidos arquivos obrigatórios e nove commits da base remota.
+- Preservadas cinco fontes locais e cinco históricas com SHA-256 e proveniência.
+- Tema, loja e HUD locais diferem das últimas fontes do histórico.
+- Dez fontes compiladas sem execução; nenhum teste funcional.
+- Corrigido link inexistente do guia e regenerado contexto portátil.
+- Atualizados mapa, ficha de UI, backlog, perguntas, painel e sessão.
 
-## Pendente mais importante
-- Aprovar [[01-Produto/MVP-Proposto]] ou definir outro MVP.
-- Responder [[01-Produto/Perguntas-Abertas]].
-- Indicar/criar repositório Roblox e preencher [[03-Tecnico/Mapa-do-Codigo]].
+## Arquivos para retomar
+- [[03-Tecnico/Recuperacao-UI-2026-10-19]]: evidências, dependências e limites.
+- `03-Tecnico/evidencias/ui-2026-10-19/manifest.json`: hashes e caminhos históricos.
+- `historico/`: textos das chamadas; `local/`: cópias dos arquivos em disco.
+- [[03-Tecnico/Mapa-do-Codigo]] e [[06-Sessoes/2026-10-19-recuperacao-contexto-e-ui]].
 
-## Bloqueios
-Implementação depende de decisões e de acesso ao projeto Roblox real.
+## Próxima ação exata
+1. Verificar resposta à confirmação de **cortador para brainrot**. Se faltar,
+   solicitar vínculo/abertura do lugar correto. Não presumir autorização de outro alvo.
+2. Listar instâncias MCP e conferir nome/PlaceId antes de editar.
+3. Identificar/exportar projeto real para repositório; registrar URL, branch, commit.
+   Este vault é memória com anexos, não projeto Roblox completo.
+4. Comparar código ao vivo com o manifesto e preservar versões mais recentes.
+5. Conferir remotes/servidor, InventoryLeaderstats, previews e backup da UI.
+6. Retomar ícones/layout da tarefa histórica se alvo confirmado; testar loja,
+   venda, HUD e prompts em PC/celular. Não alterar economia por dedução.
+7. Se for outro jogo, preservar histórico separado e resolver BR-001/BR-002.
 
-## Identificação da versão
-- Vault: inicial, 2026-10-18.
-- Repositório GitHub remoto: publicado em https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1 (branch main).
-- Commit de código do jogo: **não conhecido**.
-- Tarefas efetivamente implementadas: **nenhuma verificada**.
+## Pendências
+- MVP, regras numéricas e arquitetura sem aprovação formal.
+- Sem Playtest, mobile real, multiplayer, persistência ou medição de performance.
+- Pacote parcial sem servidor, mapa, todos os clientes e assets finais.
+- `Madeira` na loja versus `Tronco` no HUD/venda exige inspeção do servidor.
+- Nenhuma implementação nova, publicação Roblox ou edição Blender nesta sessão.
 
-## Como continuar
-1. Leia `AGENTS.md`, este handoff e o estado atual.
-2. Consulte backlog e documentos específicos.
-3. Inspecione código real **se houver acesso**.
-4. Não preencha lacunas como fatos.
-5. Ao finalizar, atualize os quatro registros da rotina em
-   [[07-Handoffs/PROTOCOLO-DE-CONTINUIDADE]].
+## Branch e versão
+- Base: `main`, `02da386f4d787902276e4e3f22f6e148b6a15bec`.
+- Trabalho: `codex/recuperar-contexto-2026-10-19`.
+- Recuperação publicada e ref remota confirmada:
+  `2b812609b2424ecdc00c9b2e077f6fbeb5a53785`; CI de push passou.
+- [PR #1](https://github.com/arthurfdossantos1-stack/brainrot-segundo-cerebro1/pull/1)
+  aberta, não integrada. **Enquanto a PR estiver aberta, ler a branch de trabalho;
+  main ainda contém o handoff antigo.**
+- Commit da recuperação: consultar
+  `git log -1 --format=%H -- 06-Sessoes/2026-10-19-recuperacao-contexto-e-ui.md`.
+- Commit do jogo: **desconhecido**. Detalhes do envio pelo conector, equivalência
+  com o commit local e CI estão na nota de sessão; não houve push CLI concluído.
 
-**Próxima tarefa indicada:** BR-001 / BR-002, conforme acesso e decisões do criador.
+Fonte conceitual preservada: [[00-Fonte/PROJETO_BRAINROT]] e
+[[05-Decisoes/DEC-0001-Conceito-Base]]. Nenhuma decisão foi substituída.
 
 
 ---
 
 ## Arquivo de origem: `04-Planejamento/Backlog.md`
+
 
 
 ---
@@ -182,12 +215,12 @@ tags: [backlog, tarefas]
 # Backlog do jogo
 
 Estados válidos: `a-fazer`, `em-andamento`, `bloqueado`, `em-revisao`, `feito`.
-**Todas as tarefas abaixo estão inicialmente em planejamento.**
+Revisado em 19/10/2026. Nenhum sistema foi validado no projeto ao vivo correto.
 
 | ID | Prioridade | Tarefa | Estado | Dependência |
 |---|---|---|---|---|
-| BR-001 | P0 | Definir MVP e limites de escopo | a-fazer | Q12 |
-| BR-002 | P0 | Identificar/criar repositório do código Roblox | a-fazer | Q11 |
+| BR-001 | P0 | Definir MVP e limites de escopo | bloqueado | Q12: proposta ainda não aprovada |
+| BR-002 | P0 | Identificar/criar repositório do código Roblox | bloqueado | Confirmar projeto 116391348137209 e conectar código real; investigação registrada |
 | BR-003 | P0 | Definir regras de árvores e corte | a-fazer | Q02, Q03 |
 | BR-004 | P0 | Definir armazenamento de madeira | a-fazer | Q04 |
 | BR-005 | P0 | Definir produção e eclosão de ovos | a-fazer | Q05 |
@@ -198,6 +231,19 @@ Estados válidos: `a-fazer`, `em-andamento`, `bloqueado`, `em-revisao`, `feito`.
 | BR-010 | P2 | Decidir a existência do roubo | a-fazer | Q07 |
 | BR-011 | P2 | Definir mapa, visual e animações | a-fazer | Q09 |
 | BR-012 | P1 | Testar e documentar o primeiro loop | bloqueado | BR-007 |
+| BR-013 | P0 | Recuperar estado da UI anterior e retomar correção interrompida | bloqueado | Confirmar vínculo com o jogo anterior e abrir o lugar correto; BR-002 |
+
+## Progresso verificável — 19/10/2026
+- BR-002: inspecionados GitHub, histórico local e MCPs. Repositório do jogo não
+  identificado. Studio atual: Place1 sem scripts; projeto histórico tem outro ID.
+- BR-013: recuperação parcial concluída, com dez snapshots, manifesto e compilação
+  sintática 10/10. Tema, loja e HUD têm versões históricas posteriores às locais.
+  Correção final de ícones e testes no projeto real continuam pendentes.
+- BR-001/BR-003 a BR-006: nenhuma regra numérica ou aprovação de MVP foi inventada.
+- Validação da memória: corrigido exemplo de link inexistente e regenerado contexto.
+
+Evidências e próxima ação: [[03-Tecnico/Recuperacao-UI-2026-10-19]] e
+[[06-Sessoes/2026-10-19-recuperacao-contexto-e-ui]].
 
 ## Política de conclusão
 Uma tarefa só vai para `feito` quando há:
@@ -212,6 +258,7 @@ Uma tarefa só vai para `feito` quando há:
 ---
 
 ## Arquivo de origem: `01-Produto/Perguntas-Abertas.md`
+
 
 
 ---
@@ -234,15 +281,21 @@ Toda resposta aceita deve virar decisão em `05-Decisoes/` e refletir nas notas 
 | Q08 | Como evoluem fábrica, machados, base e regiões? | Aberto |
 | Q09 | Qual será o mapa, direção de arte e animações? | Aberto |
 | Q10 | Qual interface e controles serão usados no celular? | Aberto |
-| Q11 | Onde ficará o código Roblox? Há projeto Studio ou Rojo existente? | Aberto |
+| Q11 | Onde ficará o código Roblox? Há projeto Studio ou Rojo existente? | Parcial: encontrado histórico do Place 116391348137209; confirmar vínculo e repositório |
 | Q12 | Qual o escopo aprovado do MVP? | Aberto |
 
 Referência de origem: [[00-Fonte/PROJETO_BRAINROT]].
+
+Em 19/10/2026 foi solicitado ao criador confirmar se o projeto a continuar é
+**cortador para brainrot** e abri-lo no Studio com MCP. A resposta ainda não foi
+recebida nesta sessão. O Studio consultado está em Place1, ID 0, sem scripts.
+Isso não aprova o MVP nem a adoção das regras do jogo histórico.
 
 
 ---
 
 ## Arquivo de origem: `05-Decisoes/DEC-0001-Conceito-Base.md`
+
 
 
 ---
@@ -272,6 +325,7 @@ que o loop já foi construído. Roubo e configurações numéricas continuam em 
 ---
 
 ## Arquivo de origem: `00-Fonte/PROJETO_BRAINROT.md`
+
 
 
 # 🌳 Jogo de Árvores e Brainrots — Visão Geral
@@ -355,6 +409,7 @@ Este documento apresenta **a ideia atual**, não um conjunto de regras imutávei
 ## Arquivo de origem: `07-Handoffs/PROTOCOLO-DE-CONTINUIDADE.md`
 
 
+
 ---
 tags: [ia, protocolo, handoff]
 ---
@@ -400,6 +455,7 @@ por padrão; a sincronização depende de arquivo/anexo/conector acessível.
 ---
 
 ## Arquivo de origem: `07-Handoffs/PROMPT-NOVA-IA.md`
+
 
 
 ---
